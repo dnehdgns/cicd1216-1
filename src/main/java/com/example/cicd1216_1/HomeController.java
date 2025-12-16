@@ -10,4 +10,14 @@ public class HomeController {
     public String hicicd(){
         return "hi 1216 owo";
     }
+
+    @GetMapping("/hicicd2")
+    public String hicicd2(){
+        return "hi 1216 owo2";
+    }
+
+    @GetMapping("/hicicd3")
+    public String hicicd3(){
+        return "새로운 cicd 적용";
+    }
 }
